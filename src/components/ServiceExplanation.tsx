@@ -9,7 +9,7 @@ import hospitalPhoto from "@/assets/hospital-photo.jpg";
 const ServiceExplanation = () => {
   const steps = [
     { icon: smartphonePhoto, label: "スマホで予約" },
-    { icon: wheelchairPhoto, label: "介護タクシー" }, 
+    { icon: careTaxiPhoto, label: "介護タクシー" }, 
     { icon: careSupportPhoto, label: "安心サポート" },
     { icon: mobilityTransportPhoto, label: "移動" },
     { icon: hospitalPhoto, label: "目的地到着" }
