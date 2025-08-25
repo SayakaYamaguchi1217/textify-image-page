@@ -1,9 +1,9 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import smartphoneIcon from "@/assets/smartphone-icon.png";
-import userIcon from "@/assets/user-icon.png";
-import documentIcon from "@/assets/document-icon.png";
-import taxiIcon from "@/assets/taxi-icon.png";
+import smartphonePhoto from "@/assets/smartphone-photo.jpg";
+import userProfilePhoto from "@/assets/user-profile-photo.jpg";
+import documentPhoto from "@/assets/document-photo.jpg";
+import taxiPhoto from "@/assets/taxi-photo.jpg";
 
 const AppFeatures = () => {
   return (
@@ -81,8 +81,8 @@ const AppFeatures = () => {
               <div className="bg-primary text-primary-foreground rounded-full w-12 h-12 flex items-center justify-center text-lg font-bold mx-auto mb-4">
                 1
               </div>
-              <div className="mb-4 flex items-center justify-center">
-                <img src={smartphoneIcon} alt="スマートフォンアプリ" className="w-12 h-12" />
+              <div className="mb-4 flex items-center justify-center overflow-hidden rounded-lg">
+                <img src={smartphonePhoto} alt="スマートフォンアプリ" className="w-20 h-20 object-cover rounded-lg shadow-md" />
               </div>
               <h3 className="text-lg font-bold text-foreground mb-3 font-japanese">
                 Step1
@@ -98,8 +98,8 @@ const AppFeatures = () => {
               <div className="bg-primary text-primary-foreground rounded-full w-12 h-12 flex items-center justify-center text-lg font-bold mx-auto mb-4">
                 2
               </div>
-              <div className="mb-4 flex items-center justify-center">
-                <img src={userIcon} alt="ユーザー登録" className="w-12 h-12" />
+              <div className="mb-4 flex items-center justify-center overflow-hidden rounded-lg">
+                <img src={userProfilePhoto} alt="ユーザー登録" className="w-20 h-20 object-cover rounded-lg shadow-md" />
               </div>
               <h3 className="text-lg font-bold text-foreground mb-3 font-japanese">
                 Step2
@@ -115,8 +115,8 @@ const AppFeatures = () => {
               <div className="bg-primary text-primary-foreground rounded-full w-12 h-12 flex items-center justify-center text-lg font-bold mx-auto mb-4">
                 3
               </div>
-              <div className="mb-4 flex items-center justify-center">
-                <img src={documentIcon} alt="書類・登録フォーム" className="w-12 h-12" />
+              <div className="mb-4 flex items-center justify-center overflow-hidden rounded-lg">
+                <img src={documentPhoto} alt="書類・登録フォーム" className="w-20 h-20 object-cover rounded-lg shadow-md" />
               </div>
               <h3 className="text-lg font-bold text-foreground mb-3 font-japanese">
                 Step3
@@ -132,8 +132,8 @@ const AppFeatures = () => {
               <div className="bg-primary text-primary-foreground rounded-full w-12 h-12 flex items-center justify-center text-lg font-bold mx-auto mb-4">
                 4
               </div>
-              <div className="mb-4 flex items-center justify-center">
-                <img src={taxiIcon} alt="タクシー配車" className="w-12 h-12" />
+              <div className="mb-4 flex items-center justify-center overflow-hidden rounded-lg">
+                <img src={taxiPhoto} alt="タクシー配車" className="w-20 h-20 object-cover rounded-lg shadow-md" />
               </div>
               <h3 className="text-lg font-bold text-foreground mb-3 font-japanese">
                 Step4
