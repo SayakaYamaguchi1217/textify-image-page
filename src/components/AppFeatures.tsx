@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import smartphonePhoto from "@/assets/smartphone-photo.jpg";
 import userProfilePhoto from "@/assets/user-profile-photo.jpg";
-import mobileRegistrationPhoto from "@/assets/mobile-registration-photo.jpg";
+import careManagerRegistrationPhoto from "@/assets/care-manager-registration-photo.jpg";
 import careTaxiPhoto from "@/assets/care-taxi-photo.jpg";
 
 const AppFeatures = () => {
@@ -116,7 +116,7 @@ const AppFeatures = () => {
                 3
               </div>
               <div className="mb-4 flex items-center justify-center overflow-hidden rounded-lg">
-                <img src={mobileRegistrationPhoto} alt="利用者登録・個人情報入力" className="w-20 h-20 object-cover rounded-lg shadow-md" />
+                <img src={careManagerRegistrationPhoto} alt="ケアマネージャーによる利用者登録" className="w-20 h-20 object-cover rounded-lg shadow-md" />
               </div>
               <h3 className="text-lg font-bold text-foreground mb-3 font-japanese">
                 Step3
