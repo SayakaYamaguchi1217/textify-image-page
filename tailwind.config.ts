@@ -28,6 +28,10 @@ export default {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
+				hero: {
+					text: 'hsl(var(--hero-text))',
+					accent: 'hsl(var(--hero-accent))'
+				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
@@ -62,6 +66,13 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'hero-gradient': 'var(--hero-bg)',
+				'primary-gradient': 'var(--primary-gradient)'
+			},
+			fontFamily: {
+				'japanese': ['"Noto Sans JP"', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
