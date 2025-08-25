@@ -109,7 +109,7 @@ All colors MUST be HSL.
 @layer components {
   .marker-highlight-yellow {
     @apply relative inline;
-    background: linear-gradient(104deg, transparent 0.9%, hsl(45 100% 65%) 2.4%, hsl(45 100% 60%) 5.8%, hsl(45 100% 65%) 93%, hsl(45 100% 70%) 96%, transparent 98%);
+    background: linear-gradient(104deg, transparent 0.9%, hsl(45 100% 85%) 2.4%, hsl(45 100% 80%) 5.8%, hsl(45 100% 85%) 93%, hsl(45 100% 90%) 96%, transparent 98%);
     border-radius: 0.2em;
     padding: 0.1em 0.2em;
     transform: rotate(-0.5deg);
@@ -118,7 +118,7 @@ All colors MUST be HSL.
   
   .marker-highlight-blue {
     @apply relative inline;
-    background: linear-gradient(104deg, transparent 0.9%, hsl(210 100% 85%) 2.4%, hsl(210 100% 80%) 5.8%, hsl(210 100% 85%) 93%, hsl(210 100% 90%) 96%, transparent 98%);
+    background: linear-gradient(104deg, transparent 0.9%, hsl(210 100% 92%) 2.4%, hsl(210 100% 88%) 5.8%, hsl(210 100% 92%) 93%, hsl(210 100% 95%) 96%, transparent 98%);
     border-radius: 0.2em;
     padding: 0.1em 0.2em;
     transform: rotate(-0.3deg);
@@ -127,7 +127,7 @@ All colors MUST be HSL.
   
   .marker-highlight-green {
     @apply relative inline;
-    background: linear-gradient(104deg, transparent 0.9%, hsl(142 76% 73%) 2.4%, hsl(142 76% 68%) 5.8%, hsl(142 76% 73%) 93%, hsl(142 76% 78%) 96%, transparent 98%);
+    background: linear-gradient(104deg, transparent 0.9%, hsl(142 76% 83%) 2.4%, hsl(142 76% 78%) 5.8%, hsl(142 76% 83%) 93%, hsl(142 76% 88%) 96%, transparent 98%);
     border-radius: 0.2em;
     padding: 0.1em 0.2em;
     transform: rotate(0.4deg);
