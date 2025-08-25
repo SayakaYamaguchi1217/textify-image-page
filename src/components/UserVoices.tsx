@@ -30,7 +30,7 @@ const UserVoices = () => {
                   <img src={voice.icon} alt="表情イラスト" className="w-24 h-24 mx-auto rounded-full object-cover shadow-md" />
                 </div>
                 <p className="text-foreground leading-relaxed whitespace-pre-line font-japanese">
-                  {voice.text}
+                  <span className="marker-highlight-yellow">{voice.text}</span>
                 </p>
               </CardContent>
             </Card>
