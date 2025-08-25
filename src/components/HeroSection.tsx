@@ -19,7 +19,7 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto">
           {/* Main Heading */}
           <p className="text-hero-text text-lg md:text-xl mb-8 font-light tracking-wider">
-            〜おばあちゃんに寄り添えるスマホアプリ〜
+            〜ばあちゃんに空を見せるスマホアプリ〜
           </p>
           
           <h1 className="text-hero-text text-4xl md:text-6xl lg:text-7xl font-black mb-12 leading-tight font-japanese">
