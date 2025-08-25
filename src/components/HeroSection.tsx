@@ -27,33 +27,49 @@ const HeroSection = () => {
             <span className="block">出かけるなら</span>
           </h1>
           
-          {/* App Store Button */}
-          <div className="flex justify-center mb-16">
-            <Button 
-              variant="secondary" 
-              size="lg"
-              className="bg-white/95 hover:bg-white text-primary font-semibold px-8 py-4 text-lg rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105"
-            >
-              介護タクシー事業者様アプリはこちらから！
-            </Button>
+          {/* Business App Section */}
+          <div className="mb-12">
+            <h2 className="text-hero-text text-2xl md:text-3xl font-bold mb-8 font-japanese">
+              介護タクシー事業者様アプリはこちら！
+            </h2>
+            
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+              <a 
+                href="https://apps.apple.com/jp/app/%E3%83%A0%E3%83%BC%E3%83%96dx-%E4%BB%8B%E8%AD%B7%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA/id6746466200"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-6 py-3 bg-white/95 hover:bg-white text-primary font-semibold rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105"
+              >
+                App Storeからダウンロード
+              </a>
+              
+              <a 
+                href="https://play.google.com/store/apps/details?id=com.japanmove.move_dx&fbclid=PAZXh0bgNhZW0CMTEAAacZGUDzDY5yVmE3PMABJ7lX32i3UIGcNioN6UqRFhMdS2evZz01OA2nguwIUg_aem_IBX1MHd46eZT722SVaKVVg"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-6 py-3 bg-white/95 hover:bg-white text-primary font-semibold rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105"
+              >
+                Google Playからダウンロード
+              </a>
+            </div>
           </div>
           
-          {/* App Store Badge */}
-          <div className="flex justify-center">
-            <a 
-              href="https://apps.apple.com/jp/app/%E3%83%A0%E3%83%BC%E3%83%96dx-%E4%BB%8B%E8%AD%B7%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA/id6746466200"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition-transform hover:scale-105"
-            >
-              <img 
-                src="/placeholder.svg" 
-                alt="App Storeからダウンロード"
-                width={135}
-                height={50}
-                className="h-12 w-auto"
-              />
-            </a>
+          {/* General User App Section */}
+          <div>
+            <h3 className="text-hero-text text-xl md:text-2xl font-bold mb-6 font-japanese">
+              一般の方はこちら！
+            </h3>
+            
+            <div className="flex justify-center">
+              <a 
+                href="https://apps.apple.com/jp/app/%E3%83%A0%E3%83%BC%E3%83%96-%E4%BB%8B%E8%AD%B7%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E9%85%8D%E8%BB%8A%E3%82%A2%E3%83%97%E3%83%AA/id6745237717"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-6 py-3 bg-white/95 hover:bg-white text-primary font-semibold rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105"
+              >
+                App Storeからダウンロード
+              </a>
+            </div>
           </div>
         </div>
       </div>
