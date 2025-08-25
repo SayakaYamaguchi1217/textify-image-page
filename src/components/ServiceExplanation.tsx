@@ -52,8 +52,8 @@ const ServiceExplanation = () => {
                   ムーブアプリで目的地日時を指定
                 </h3>
               </div>
-              <div className="bg-primary/10 rounded-xl p-4 mt-auto flex items-center justify-center overflow-hidden">
-                <img src={smartphonePhoto} alt="スマートフォン" className="w-20 h-20 object-cover rounded-lg" />
+              <div className="bg-primary/10 rounded-xl p-2 mt-auto flex items-center justify-center overflow-hidden">
+                <img src={smartphonePhoto} alt="スマートフォン" className="w-full h-32 object-cover rounded-lg" />
               </div>
             </CardContent>
           </Card>
@@ -68,8 +68,8 @@ const ServiceExplanation = () => {
                   提携介護タクシー会社の中からマッチしたタクシードライバーがお迎えに上がります
                 </h3>
               </div>
-              <div className="bg-primary/10 rounded-xl p-4 mt-auto flex items-center justify-center overflow-hidden">
-                <img src={taxiPhoto} alt="タクシー" className="w-20 h-20 object-cover rounded-lg" />
+              <div className="bg-primary/10 rounded-xl p-2 mt-auto flex items-center justify-center overflow-hidden">
+                <img src={taxiPhoto} alt="タクシー" className="w-full h-32 object-cover rounded-lg" />
               </div>
             </CardContent>
           </Card>
@@ -84,8 +84,8 @@ const ServiceExplanation = () => {
                   介護タクシーなので車椅子のまま移動可能
                 </h3>
               </div>
-              <div className="bg-primary/10 rounded-xl p-4 mt-auto flex items-center justify-center overflow-hidden">
-                <img src={wheelchairPhoto} alt="車椅子アクセシビリティ" className="w-20 h-20 object-cover rounded-lg" />
+              <div className="bg-primary/10 rounded-xl p-2 mt-auto flex items-center justify-center overflow-hidden">
+                <img src={wheelchairPhoto} alt="車椅子アクセシビリティ" className="w-full h-32 object-cover rounded-lg" />
               </div>
             </CardContent>
           </Card>
@@ -100,8 +100,8 @@ const ServiceExplanation = () => {
                   目的地で観光や用事などをお済ませください！
                 </h3>
               </div>
-              <div className="bg-primary/10 rounded-xl p-4 mt-auto flex items-center justify-center overflow-hidden">
-                <img src={hospitalPhoto} alt="病院・目的地" className="w-20 h-20 object-cover rounded-lg" />
+              <div className="bg-primary/10 rounded-xl p-2 mt-auto flex items-center justify-center overflow-hidden">
+                <img src={hospitalPhoto} alt="病院・目的地" className="w-full h-32 object-cover rounded-lg" />
               </div>
             </CardContent>
           </Card>
