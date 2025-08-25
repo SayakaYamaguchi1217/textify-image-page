@@ -21,7 +21,11 @@ const ServiceExplanation = () => {
         <div className="text-center mb-16">
           {/* 下矢印型の視線誘導 */}
           <div className="flex justify-center mb-8">
-            <div className="w-0 h-0 border-l-[20px] border-r-[20px] border-t-[15px] border-l-transparent border-r-transparent border-t-primary/20 animate-pulse"></div>
+            <div className="relative">
+              <div className="w-0 h-0 border-l-[40px] border-r-[40px] border-t-[30px] border-l-transparent border-r-transparent border-t-primary/60 animate-pulse shadow-lg"></div>
+              <div className="absolute top-2 left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-[30px] border-r-[30px] border-t-[22px] border-l-transparent border-r-transparent border-t-primary/40"></div>
+              <div className="absolute top-4 left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-[20px] border-r-[20px] border-t-[15px] border-l-transparent border-r-transparent border-t-primary/20"></div>
+            </div>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 font-japanese">
             介護タクシーをお手元のスマホから<span className="text-primary">簡単</span>に呼ぶことができます
