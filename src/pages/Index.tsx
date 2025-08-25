@@ -5,10 +5,12 @@ import AppFeatures from "@/components/AppFeatures";
 import CustomerTestimonials from "@/components/CustomerTestimonials";
 import FAQ from "@/components/FAQ";
 import FinalDownload from "@/components/FinalDownload";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 const Index = () => {
   return (
     <main className="min-h-screen">
+      <LanguageSwitcher />
       <HeroSection />
       <UserVoices />
       <ServiceExplanation />
