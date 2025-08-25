@@ -105,43 +105,6 @@ All colors MUST be HSL.
   }
 }
 
-/* Marker Highlight Styles */
-@layer components {
-  .marker-highlight-yellow {
-    @apply relative inline-block;
-  }
-  
-  .marker-highlight-yellow::before {
-    content: '';
-    position: absolute;
-    top: 0.1em;
-    left: -0.1em;
-    right: -0.1em;
-    bottom: -0.1em;
-    background: linear-gradient(104deg, transparent 0.9%, hsl(45 100% 80%) 2.4%, hsl(45 100% 75%) 5.8%, hsl(45 100% 80%) 93%, hsl(45 100% 85%) 96%, transparent 98%);
-    border-radius: 0.2em;
-    z-index: -1;
-    transform: rotate(-0.5deg);
-  }
-  
-  .marker-highlight-pink {
-    @apply relative inline-block;
-  }
-  
-  .marker-highlight-pink::before {
-    content: '';
-    position: absolute;
-    top: 0.1em;
-    left: -0.1em;
-    right: -0.1em;
-    bottom: -0.1em;
-    background: linear-gradient(104deg, transparent 0.9%, hsl(330 85% 85%) 2.4%, hsl(330 85% 80%) 5.8%, hsl(330 85% 85%) 93%, hsl(330 85% 90%) 96%, transparent 98%);
-    border-radius: 0.2em;
-    z-index: -1;
-    transform: rotate(0.6deg);
-  }
-}
-
 @layer base {
   * {
     @apply border-border;
