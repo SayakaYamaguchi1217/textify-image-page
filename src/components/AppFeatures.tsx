@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import smartphonePhoto from "@/assets/smartphone-photo.jpg";
 import userProfilePhoto from "@/assets/user-profile-photo.jpg";
 import documentPhoto from "@/assets/document-photo.jpg";
-import taxiPhoto from "@/assets/taxi-photo.jpg";
+import careTaxiPhoto from "@/assets/care-taxi-photo.jpg";
 
 const AppFeatures = () => {
   return (
@@ -133,7 +133,7 @@ const AppFeatures = () => {
                 4
               </div>
               <div className="mb-4 flex items-center justify-center overflow-hidden rounded-lg">
-                <img src={taxiPhoto} alt="タクシー配車" className="w-20 h-20 object-cover rounded-lg shadow-md" />
+                <img src={careTaxiPhoto} alt="介護タクシー配車" className="w-20 h-20 object-cover rounded-lg shadow-md" />
               </div>
               <h3 className="text-lg font-bold text-foreground mb-3 font-japanese">
                 Step4

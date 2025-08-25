@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import smartphonePhoto from "@/assets/smartphone-photo.jpg";
 import wheelchairPhoto from "@/assets/wheelchair-photo.jpg";
 import careSupportPhoto from "@/assets/care-support-photo.jpg";
-import taxiPhoto from "@/assets/taxi-photo.jpg";
+import careTaxiPhoto from "@/assets/care-taxi-photo.jpg";
 import hospitalPhoto from "@/assets/hospital-photo.jpg";
 
 const ServiceExplanation = () => {
@@ -10,7 +10,7 @@ const ServiceExplanation = () => {
     { icon: smartphonePhoto, label: "スマホで予約" },
     { icon: wheelchairPhoto, label: "介護タクシー" }, 
     { icon: careSupportPhoto, label: "安心サポート" },
-    { icon: taxiPhoto, label: "移動" },
+    { icon: careTaxiPhoto, label: "移動" },
     { icon: hospitalPhoto, label: "目的地到着" }
   ];
 
@@ -66,7 +66,7 @@ const ServiceExplanation = () => {
                 </h3>
               </div>
               <div className="bg-primary/10 rounded-xl p-2 mt-auto flex items-center justify-center overflow-hidden">
-                <img src={taxiPhoto} alt="タクシー" className="w-full h-32 object-cover rounded-lg" />
+                <img src={careTaxiPhoto} alt="介護タクシー" className="w-full h-32 object-cover rounded-lg" />
               </div>
             </CardContent>
           </Card>
