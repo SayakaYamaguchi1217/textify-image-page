@@ -29,7 +29,6 @@ const AppFeatures = () => {
               
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
-                  <div className="text-6xl mb-6 text-center">🗾</div>
                 </div>
                 <div>
                   <p className="text-muted-foreground text-lg leading-relaxed mb-4">
@@ -59,7 +58,6 @@ const AppFeatures = () => {
             <CardContent className="p-8 md:p-12">
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
-                  <div className="text-6xl mb-6 text-center">🛡️</div>
                 </div>
                 <div>
                   <p className="text-muted-foreground text-lg leading-relaxed mb-4">
