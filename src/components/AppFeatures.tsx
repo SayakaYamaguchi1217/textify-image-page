@@ -16,7 +16,7 @@ const AppFeatures = () => {
             </h2>
           </div>
           
-          <Card className="max-w-4xl mx-auto shadow-lg bg-gradient-to-br from-primary/5 to-accent/5 border-primary/20">
+          <Card className="max-w-4xl mx-auto shadow-lg bg-primary/5 border-primary/20">
             <CardContent className="p-8 md:p-12">
               <div className="text-center mb-8">
                 <p className="text-lg text-foreground font-semibold mb-4 font-japanese">
@@ -50,7 +50,7 @@ const AppFeatures = () => {
             </h2>
           </div>
           
-          <Card className="max-w-4xl mx-auto shadow-lg bg-gradient-to-br from-accent/5 to-primary/5 border-accent/20">
+          <Card className="max-w-4xl mx-auto shadow-lg bg-accent/5 border-accent/20">
             <CardContent className="p-8 md:p-12">
               <div className="text-center">
                 <p className="text-muted-foreground text-lg leading-relaxed mb-4">
