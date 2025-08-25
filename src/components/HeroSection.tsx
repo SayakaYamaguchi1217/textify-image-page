@@ -57,7 +57,7 @@ const HeroSection = () => {
           {/* General User App Section */}
           <div>
             <h3 className="text-hero-text text-xl md:text-2xl font-bold mb-6 font-japanese">
-              一般の方はこちら！
+              <span className="marker-highlight-pink">一般の方</span>はこちら！
             </h3>
             
             <div className="flex justify-center">
