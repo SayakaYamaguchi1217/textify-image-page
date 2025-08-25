@@ -33,9 +33,6 @@ const ServiceExplanation = () => {
                 <span className="text-xs md:text-sm text-muted-foreground text-center font-japanese max-w-20 md:max-w-none">
                   {step.label}
                 </span>
-                {index < steps.length - 1 && (
-                  <div className="hidden md:block absolute h-px bg-accent w-6 mt-6 ml-10"></div>
-                )}
               </div>
             ))}
           </div>
