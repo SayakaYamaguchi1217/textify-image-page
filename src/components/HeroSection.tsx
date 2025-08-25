@@ -23,8 +23,7 @@ const HeroSection = () => {
           </p>
           
           <h1 className="text-hero-text text-4xl md:text-6xl lg:text-7xl font-black mb-12 leading-tight font-japanese">
-            <span className="block">車椅子で</span>
-            <span className="block">出かけるなら</span>
+            <span className="block">車椅子で出かけるなら</span>
             <span className="block mt-4">「ムーブ」</span>
           </h1>
           
