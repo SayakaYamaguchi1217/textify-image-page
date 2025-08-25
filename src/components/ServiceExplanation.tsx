@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import smartphonePhoto from "@/assets/smartphone-photo.jpg";
 import wheelchairPhoto from "@/assets/wheelchair-photo.jpg";
-import careSupportPhoto from "@/assets/care-support-photo.jpg";
+import driverSupportPhoto from "@/assets/driver-support-photo.jpg";
 import mobilityTransportPhoto from "@/assets/mobility-transport-photo.jpg";
 import careTaxiPhoto from "@/assets/care-taxi-photo.jpg";
 import hospitalPhoto from "@/assets/hospital-photo.jpg";
@@ -10,7 +10,7 @@ const ServiceExplanation = () => {
   const steps = [
     { icon: smartphonePhoto, label: "スマホで予約" },
     { icon: careTaxiPhoto, label: "介護タクシー" }, 
-    { icon: careSupportPhoto, label: "安心サポート" },
+    { icon: driverSupportPhoto, label: "安心サポート" },
     { icon: mobilityTransportPhoto, label: "移動" },
     { icon: hospitalPhoto, label: "目的地到着" }
   ];
