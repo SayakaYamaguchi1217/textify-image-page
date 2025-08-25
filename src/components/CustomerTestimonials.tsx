@@ -5,7 +5,7 @@ const CustomerTestimonials = () => {
     {
       age: "70代女性",
       type: "車椅子 利用者",
-      title: "大好きな孫たちと外食できるようになりました",
+      title: "大好きな<span className=\"marker-highlight-green\">孫たちと外食</span>できるようになりました",
       content: (
         <>
           これまで孫が返ってきた際に、<span className="marker-highlight-yellow">ちょっとそこまでご飯を食べに行くのも一苦労でした。</span><br />
@@ -19,7 +19,7 @@ const CustomerTestimonials = () => {
     {
       age: "40代女性",
       type: "利用者 親族",
-      title: "もう、たらい回しされることはなくなりました",
+      title: "もう、<span className=\"marker-highlight-blue\">たらい回しされることはなくなりました</span>",
       content: (
         <>
           介護タクシーは車椅子のまま乗車できてとても便利なものです。<br />
@@ -34,7 +34,7 @@ const CustomerTestimonials = () => {
     {
       age: "30代女性",
       type: "ケアマネージャー",
-      title: "複数の利用者の登録ができて便利",
+      title: "<span className=\"marker-highlight-blue\">複数の利用者の登録</span>ができて便利",
       content: (
         <>
           私は介護施設のケアマネを努めていて、10人以上の利用者様を担当しています。<br />
@@ -73,8 +73,7 @@ const CustomerTestimonials = () => {
                       {testimonial.type}
                     </div>
                   </div>
-                  <h3 className="text-xl font-bold text-foreground mb-4 font-japanese leading-relaxed">
-                    {testimonial.title}
+                  <h3 className="text-xl font-bold text-foreground mb-4 font-japanese leading-relaxed" dangerouslySetInnerHTML={{ __html: testimonial.title }}>
                   </h3>
                 </div>
                 
