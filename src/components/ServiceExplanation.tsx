@@ -1,12 +1,18 @@
 import { Card, CardContent } from "@/components/ui/card";
+import smartphoneIcon from "@/assets/smartphone-icon.png";
+import vanIcon from "@/assets/van-icon.png";
+import supportIcon from "@/assets/support-icon.png";
+import taxiIcon from "@/assets/taxi-icon.png";
+import hospitalIcon from "@/assets/hospital-icon.png";
+import wheelchairIcon from "@/assets/wheelchair-icon.png";
 
 const ServiceExplanation = () => {
   const steps = [
-    { icon: "📱", label: "スマホで予約" },
-    { icon: "🚐", label: "介護タクシー" }, 
-    { icon: "👥", label: "安心サポート" },
-    { icon: "🚗", label: "移動" },
-    { icon: "🏥", label: "目的地到着" }
+    { icon: smartphoneIcon, label: "スマホで予約" },
+    { icon: vanIcon, label: "介護タクシー" }, 
+    { icon: supportIcon, label: "安心サポート" },
+    { icon: taxiIcon, label: "移動" },
+    { icon: hospitalIcon, label: "目的地到着" }
   ];
 
   return (
@@ -22,8 +28,8 @@ const ServiceExplanation = () => {
           <div className="flex justify-center items-center space-x-2 md:space-x-6 mb-12">
             {steps.map((step, index) => (
               <div key={index} className="flex flex-col items-center">
-                <div className="text-2xl md:text-3xl mb-2 bg-accent/20 rounded-full p-3 md:p-4">
-                  {step.icon}
+                <div className="mb-2 bg-accent/20 rounded-full p-3 md:p-4 w-12 h-12 md:w-16 md:h-16 flex items-center justify-center">
+                  <img src={step.icon} alt={step.label} className="w-6 h-6 md:w-8 md:h-8" />
                 </div>
                 <span className="text-xs md:text-sm text-muted-foreground text-center font-japanese max-w-20 md:max-w-none">
                   {step.label}
@@ -47,8 +53,8 @@ const ServiceExplanation = () => {
                   ムーブアプリで目的地日時を指定
                 </h3>
               </div>
-              <div className="text-4xl bg-primary/10 rounded-xl p-4 mt-auto">
-                📱
+              <div className="bg-primary/10 rounded-xl p-4 mt-auto flex items-center justify-center">
+                <img src={smartphoneIcon} alt="スマートフォン" className="w-12 h-12" />
               </div>
             </CardContent>
           </Card>
@@ -63,8 +69,8 @@ const ServiceExplanation = () => {
                   提携介護タクシー会社の中からマッチしたタクシードライバーがお迎えに上がります
                 </h3>
               </div>
-              <div className="text-4xl bg-primary/10 rounded-xl p-4 mt-auto">
-                🚗
+              <div className="bg-primary/10 rounded-xl p-4 mt-auto flex items-center justify-center">
+                <img src={taxiIcon} alt="タクシー" className="w-12 h-12" />
               </div>
             </CardContent>
           </Card>
@@ -79,8 +85,8 @@ const ServiceExplanation = () => {
                   介護タクシーなので車椅子のまま移動可能
                 </h3>
               </div>
-              <div className="text-4xl bg-primary/10 rounded-xl p-4 mt-auto">
-                ♿
+              <div className="bg-primary/10 rounded-xl p-4 mt-auto flex items-center justify-center">
+                <img src={wheelchairIcon} alt="車椅子アクセシビリティ" className="w-12 h-12" />
               </div>
             </CardContent>
           </Card>
@@ -95,8 +101,8 @@ const ServiceExplanation = () => {
                   目的地で観光や用事などをお済ませください！
                 </h3>
               </div>
-              <div className="text-4xl bg-primary/10 rounded-xl p-4 mt-auto">
-                🏥
+              <div className="bg-primary/10 rounded-xl p-4 mt-auto flex items-center justify-center">
+                <img src={hospitalIcon} alt="病院・目的地" className="w-12 h-12" />
               </div>
             </CardContent>
           </Card>

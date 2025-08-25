@@ -1,18 +1,18 @@
 import { Card, CardContent } from "@/components/ui/card";
-import sadFaceIcon from "@/assets/sad-face-icon.png";
+import worriedFaceIcon from "@/assets/worried-face-icon.png";
 
 const UserVoices = () => {
   const voices = [
     {
-      icon: sadFaceIcon,
+      icon: worriedFaceIcon,
       text: "車椅子だけど本当は出かけたい"
     },
     {
-      icon: sadFaceIcon, 
+      icon: worriedFaceIcon, 
       text: "ちょっと自宅に帰りたいけど\n面倒だから諦めよう"
     },
     {
-      icon: sadFaceIcon,
+      icon: worriedFaceIcon,
       text: "介護タクシーを利用したいけど、\nどうしたら良いか分からない"
     }
   ];
@@ -25,7 +25,7 @@ const UserVoices = () => {
             <Card key={index} className="border-0 shadow-md hover:shadow-lg transition-all duration-300 bg-background/80">
               <CardContent className="p-8 text-center">
                 <div className="mb-4">
-                  <img src={voice.icon} alt="悲しい表情" className="w-16 h-16 mx-auto opacity-70" />
+                  <img src={voice.icon} alt="心配している表情" className="w-16 h-16 mx-auto opacity-70" />
                 </div>
                 <p className="text-foreground leading-relaxed whitespace-pre-line font-japanese">
                   {voice.text}
