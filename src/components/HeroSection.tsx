@@ -23,14 +23,14 @@ const HeroSection = () => {
           </p>
           
           <h1 className="text-hero-text text-4xl md:text-6xl lg:text-7xl font-black mb-12 leading-tight font-japanese">
-            <span className="block marker-highlight-accent">車椅子で</span>
-            <span className="block marker-highlight-primary">出かけるなら</span>
+            <span className="block">車椅子で</span>
+            <span className="block">出かけるなら</span>
           </h1>
           
           {/* Business App Section */}
           <div className="mb-12">
             <h2 className="text-hero-text text-2xl md:text-3xl font-bold mb-8 font-japanese">
-              <span className="marker-highlight-green">介護タクシー事業者様</span>アプリはこちら！
+              介護タクシー事業者様アプリはこちら！
             </h2>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -57,7 +57,7 @@ const HeroSection = () => {
           {/* General User App Section */}
           <div>
             <h3 className="text-hero-text text-xl md:text-2xl font-bold mb-6 font-japanese">
-              <span className="marker-highlight-pink">一般の方</span>はこちら！
+              一般の方はこちら！
             </h3>
             
             <div className="flex justify-center">

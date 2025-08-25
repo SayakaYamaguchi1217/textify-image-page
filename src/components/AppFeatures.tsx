@@ -16,7 +16,7 @@ const AppFeatures = () => {
               Point 01
             </Badge>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 font-japanese">
-              対応エリアは<span className="marker-highlight-green">日本全国</span>
+              対応エリアは日本全国
             </h2>
           </div>
           
@@ -50,7 +50,7 @@ const AppFeatures = () => {
               Point 02
             </Badge>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 font-japanese">
-              <span className="marker-highlight-primary">介護タクシーに特化！</span>利用者情報の事前共有で安心
+              介護タクシーに特化！利用者情報の事前共有で安心
             </h2>
           </div>
           
@@ -58,10 +58,10 @@ const AppFeatures = () => {
             <CardContent className="p-8 md:p-12">
               <div className="text-center">
                 <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-                  ムーブは介護タクシーに特化することで、介護等級や車椅子レンタルの有無などドライバーに<span className="marker-highlight-pink">事前共有</span>が可能です。
+                  ムーブは介護タクシーに特化することで、介護等級や車椅子レンタルの有無などドライバーに事前共有が可能です。
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed">
-                  簡単に配車予約が可能なことはもちろん、事前共有で<span className="marker-highlight-accent">楽々・安心</span>を実現しました。
+                  簡単に配車予約が可能なことはもちろん、事前共有で楽々・安心を実現しました。
                 </p>
               </div>
             </CardContent>

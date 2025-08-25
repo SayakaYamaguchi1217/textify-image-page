@@ -28,7 +28,7 @@ const ServiceExplanation = () => {
             </div>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 font-japanese">
-            介護タクシーをお手元のスマホから<span className="marker-highlight-accent">簡単</span>に呼ぶことができます
+            介護タクシーをお手元のスマホから<span className="text-primary">簡単</span>に呼ぶことができます
           </h2>
         </div>
 
