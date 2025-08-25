@@ -16,7 +16,7 @@ const AppFeatures = () => {
               Point 01
             </Badge>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 font-japanese">
-              対応エリアは日本全国
+              対応エリアは<span className="marker-highlight-green special-emphasis">日本全国</span>
             </h2>
           </div>
           
