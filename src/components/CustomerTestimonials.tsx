@@ -8,10 +8,10 @@ const CustomerTestimonials = () => {
       title: "大好きな孫たちと外食できるようになりました",
       content: (
         <>
-          これまで孫が返ってきた際に、<span className="text-destructive font-medium">ちょっとそこまでご飯を食べに行くのも一苦労でした。</span><br />
-          孫が「お寿司を食べに行きたい」と言ったとき、私の車椅子での移動によりためらわれていたので、<span className="text-destructive font-medium">とても心苦しい思い</span>をしてきました。<br />
-          ところが、ムーブアプリを使用するようになってから、一変。<span className="text-primary font-medium">介護タクシーが簡単に呼べるので気軽にご飯に行けるようになりました。</span><br />
-          今では孫たちと気兼ねなく<span className="text-primary font-medium">楽しい食事の時間を過ごすことができるようになりました。</span><br />
+          これまで孫が返ってきた際に、<span className="marker-highlight-yellow">ちょっとそこまでご飯を食べに行くのも一苦労でした。</span><br />
+          孫が「お寿司を食べに行きたい」と言ったとき、私の車椅子での移動によりためらわれていたので、<span className="marker-highlight-yellow">とても心苦しい思い</span>をしてきました。<br />
+          ところが、ムーブアプリを使用するようになってから、一変。<span className="marker-highlight-blue">介護タクシーが簡単に呼べるので気軽にご飯に行けるようになりました。</span><br />
+          今では孫たちと気兼ねなく<span className="marker-highlight-green">楽しい食事の時間を過ごすことができるようになりました。</span><br />
           もっと早くこのアプリのことを知っておけばよかったです。
         </>
       )
@@ -23,10 +23,10 @@ const CustomerTestimonials = () => {
       content: (
         <>
           介護タクシーは車椅子のまま乗車できてとても便利なものです。<br />
-          しかし、<span className="text-destructive font-medium">予約時はなかなか予約が取れず、多いときは4、５件タクシー業者に電話をかけて予約</span>していました。<br />
+          しかし、<span className="marker-highlight-yellow">予約時はなかなか予約が取れず、多いときは4、５件タクシー業者に電話をかけて予約</span>していました。<br />
           ちょっと車で15分ほどの病院に連れて行きたいときでも、結構苦労していました。<br />
-          <span className="text-destructive font-medium">もうたらい回しには疲れました。</span><br />
-          ムーブを使い始めてからは、<span className="text-primary font-medium">出発地、目的地、日時を指定するだけで簡単に介護タクシーが予約できる</span>ので、今までの苦労が嘘みたいです。<br />
+          <span className="marker-highlight-yellow">もうたらい回しには疲れました。</span><br />
+          ムーブを使い始めてからは、<span className="marker-highlight-blue">出発地、目的地、日時を指定するだけで簡単に介護タクシーが予約できる</span>ので、今までの苦労が嘘みたいです。<br />
           もうこれで行きたい時に行きたいところに母をつれていくことができます！
         </>
       )
@@ -39,9 +39,9 @@ const CustomerTestimonials = () => {
         <>
           私は介護施設のケアマネを努めていて、10人以上の利用者様を担当しています。<br />
           利用者様の中には、月に1回定期的にご自宅に帰宅される方や定期通院されている方も多くいらっしゃいます。<br />
-          そこで今では<span className="text-destructive font-medium">ひとりひとりに合わせえた介護タクシーを手配するのに、相当な時間を費やしていました。</span><br />
-          こういった間接的な業務もあり、<span className="text-destructive font-medium">本業に集中できる時間も制限されていました。</span><br />
-          しかし、ムーブを利用してからは、<span className="text-primary font-medium">私ひとりに対して複数の利用者を登録できる</span>ために、<span className="text-primary font-medium">それぞれの利用者様の要望に沿って簡単に介護タクシーを予約できる</span>ので、大変重宝しています。<br />
+          そこで今では<span className="marker-highlight-yellow">ひとりひとりに合わせえた介護タクシーを手配するのに、相当な時間を費やしていました。</span><br />
+          こういった間接的な業務もあり、<span className="marker-highlight-yellow">本業に集中できる時間も制限されていました。</span><br />
+          しかし、ムーブを利用してからは、<span className="marker-highlight-blue">私ひとりに対して複数の利用者を登録できる</span>ために、<span className="marker-highlight-green">それぞれの利用者様の要望に沿って簡単に介護タクシーを予約できる</span>ので、大変重宝しています。<br />
           おかげで業務に余裕ができ、利用者様との会話も楽しめる様になりました。
         </>
       )
