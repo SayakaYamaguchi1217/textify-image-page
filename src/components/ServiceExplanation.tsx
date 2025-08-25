@@ -21,41 +21,81 @@ const ServiceExplanation = () => {
           </p>
         </div>
 
-        <div className="max-w-4xl mx-auto mb-16">
-          <div className="flex justify-center items-center space-x-4 md:space-x-8 mb-12">
+        <div className="max-w-6xl mx-auto mb-16">
+          <div className="flex justify-center items-center space-x-2 md:space-x-6 mb-12">
             {steps.map((step, index) => (
               <div key={index} className="flex flex-col items-center">
-                <div className="text-3xl md:text-4xl mb-2 bg-accent/20 rounded-full p-4">
+                <div className="text-2xl md:text-3xl mb-2 bg-accent/20 rounded-full p-3 md:p-4">
                   {step.icon}
                 </div>
-                <span className="text-xs md:text-sm text-muted-foreground text-center font-japanese">
+                <span className="text-xs md:text-sm text-muted-foreground text-center font-japanese max-w-20 md:max-w-none">
                   {step.label}
                 </span>
                 {index < steps.length - 1 && (
-                  <div className="hidden md:block absolute h-px bg-accent w-8 mt-8 ml-12"></div>
+                  <div className="hidden md:block absolute h-px bg-accent w-6 mt-6 ml-10"></div>
                 )}
               </div>
             ))}
           </div>
         </div>
 
-        <Card className="max-w-2xl mx-auto shadow-lg bg-accent/5 border-accent/20">
-          <CardContent className="p-8 text-center">
-            <div className="flex items-center justify-center mb-4">
-              <div className="bg-primary text-primary-foreground rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mr-4">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+          <Card className="shadow-lg bg-accent/5 border-accent/20">
+            <CardContent className="p-6 text-center">
+              <div className="bg-primary text-primary-foreground rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mb-4 mx-auto">
                 1
               </div>
-              <h3 className="text-xl font-bold text-foreground font-japanese">
+              <h3 className="text-lg font-bold text-foreground font-japanese mb-4">
                 ムーブアプリで目的地日時を指定
               </h3>
-            </div>
-            <div className="flex justify-center">
-              <div className="text-6xl bg-primary/10 rounded-2xl p-6">
+              <div className="text-4xl bg-primary/10 rounded-xl p-4">
                 📱
               </div>
-            </div>
-          </CardContent>
-        </Card>
+            </CardContent>
+          </Card>
+
+          <Card className="shadow-lg bg-accent/5 border-accent/20">
+            <CardContent className="p-6 text-center">
+              <div className="bg-primary text-primary-foreground rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mb-4 mx-auto">
+                2
+              </div>
+              <h3 className="text-lg font-bold text-foreground font-japanese mb-4">
+                提携介護タクシー会社の中からマッチしたタクシードライバーがお迎えに上がります
+              </h3>
+              <div className="text-4xl bg-primary/10 rounded-xl p-4">
+                🚗
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="shadow-lg bg-accent/5 border-accent/20">
+            <CardContent className="p-6 text-center">
+              <div className="bg-primary text-primary-foreground rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mb-4 mx-auto">
+                3
+              </div>
+              <h3 className="text-lg font-bold text-foreground font-japanese mb-4">
+                介護タクシーなので車椅子のまま移動可能
+              </h3>
+              <div className="text-4xl bg-primary/10 rounded-xl p-4">
+                ♿
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="shadow-lg bg-accent/5 border-accent/20">
+            <CardContent className="p-6 text-center">
+              <div className="bg-primary text-primary-foreground rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mb-4 mx-auto">
+                4
+              </div>
+              <h3 className="text-lg font-bold text-foreground font-japanese mb-4">
+                目的地で観光や用事などをお済ませください！
+              </h3>
+              <div className="text-4xl bg-primary/10 rounded-xl p-4">
+                🏥
+              </div>
+            </CardContent>
+          </Card>
+        </div>
       </div>
     </section>
   );
