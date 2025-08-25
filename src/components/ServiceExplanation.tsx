@@ -27,7 +27,7 @@ const ServiceExplanation = () => {
           <div className="flex justify-center items-center space-x-2 md:space-x-6 mb-12">
             {steps.map((step, index) => (
               <div key={index} className="flex flex-col items-center">
-                <div className="mb-2 bg-accent/20 rounded-full p-2 md:p-3 w-16 h-16 md:w-20 md:h-20 flex items-center justify-center overflow-hidden">
+                <div className="mb-2 bg-accent/20 rounded-full w-16 h-16 md:w-20 md:h-20 flex items-center justify-center overflow-hidden">
                   <img src={step.icon} alt={step.label} className="w-full h-full object-cover rounded-full" />
                 </div>
                 <span className="text-xs md:text-sm text-muted-foreground text-center font-japanese max-w-20 md:max-w-none">
