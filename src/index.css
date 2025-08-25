@@ -149,6 +149,14 @@ All colors MUST be HSL.
     color: hsl(0 0% 100%); /* 白文字 */
   }
   
+  /* Customer Testimonials Title Underline */
+  .testimonial-title-underline {
+    text-decoration: underline;
+    text-decoration-color: hsl(var(--primary));
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+  }
+  
   .faq-answer-icon {
     background-color: hsl(120 70% 25%); /* 濃い緑色 */
     color: hsl(0 0% 100%); /* 白文字 */

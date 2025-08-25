@@ -73,7 +73,7 @@ const CustomerTestimonials = () => {
                       {testimonial.type}
                     </div>
                   </div>
-                  <h3 className="text-xl font-bold text-foreground mb-4 font-japanese leading-relaxed" dangerouslySetInnerHTML={{ __html: testimonial.title }}>
+                  <h3 className="text-xl font-bold text-foreground mb-4 font-japanese leading-relaxed testimonial-title-underline" dangerouslySetInnerHTML={{ __html: testimonial.title }}>
                   </h3>
                 </div>
                 
