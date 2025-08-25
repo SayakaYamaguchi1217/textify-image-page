@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const FinalDownload = () => {
   return (
-    <section className="py-20 bg-primary text-center">
+    <section className="py-20 bg-primary/20 text-center">
       <div className="container mx-auto px-4">
         <div className="flex justify-center">
           <a 
