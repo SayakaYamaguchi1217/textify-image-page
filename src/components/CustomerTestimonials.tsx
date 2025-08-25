@@ -41,7 +41,7 @@ const CustomerTestimonials = () => {
           利用者様の中には、月に1回定期的にご自宅に帰宅される方や定期通院されている方も多くいらっしゃいます。<br />
           そこで今では<span className="marker-highlight-yellow">ひとりひとりに合わせえた介護タクシーを手配するのに、相当な時間を費やしていました。</span><br />
           こういった間接的な業務もあり、<span className="marker-highlight-yellow">本業に集中できる時間も制限されていました。</span><br />
-          しかし、ムーブを利用してからは、<span className="marker-highlight-yellow">私ひとりに対して複数の利用者を登録できるために、それぞれの利用者様の要望に沿って簡単に介護タクシーを予約できるので、大変重宝しています。</span><br />
+          しかし、ムーブを利用してからは、<span className="marker-highlight-yellow">私ひとりに対して複数の利用者を登録できるために、それぞれの利用者様の要望に沿って簡単に介護タクシーを予約できるので、大変重宝しています。</span>
           おかげで業務に余裕ができ、利用者様との会話も楽しめる様になりました。
         </>
       )
