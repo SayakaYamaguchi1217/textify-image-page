@@ -58,7 +58,8 @@ const AppFeatures = () => {
             <CardContent className="p-8 md:p-12">
               <div className="text-center">
                 <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-                  ムーブは介護タクシーに特化することで、介護等級や車椅子レンタルの有無などドライバーに事前共有が可能です。
+                  ムーブは介護タクシーに特化することで、<br />
+                  介護等級や車椅子レンタルの有無などドライバーに事前共有が可能です。
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed">
                   簡単に配車予約が可能なことはもちろん、事前共有で楽々・安心を実現しました。
