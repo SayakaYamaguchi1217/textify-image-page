@@ -19,6 +19,10 @@ const ServiceExplanation = () => {
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
+          {/* 下矢印型の視線誘導 */}
+          <div className="flex justify-center mb-8">
+            <div className="w-0 h-0 border-l-[20px] border-r-[20px] border-t-[15px] border-l-transparent border-r-transparent border-t-primary/20 animate-pulse"></div>
+          </div>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 font-japanese">
             介護タクシーをお手元のスマホから<span className="text-primary">簡単</span>に呼ぶことができます
           </h2>
