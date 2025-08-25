@@ -134,6 +134,15 @@ All colors MUST be HSL.
     display: inline-block;
   }
   
+  .marker-highlight-orange {
+    @apply relative inline;
+    background: linear-gradient(104deg, transparent 0.9%, hsl(30 100% 85%) 2.4%, hsl(30 100% 80%) 5.8%, hsl(30 100% 85%) 93%, hsl(30 100% 90%) 96%, transparent 98%);
+    border-radius: 0.2em;
+    padding: 0.1em 0.2em;
+    transform: rotate(0.2deg);
+    display: inline-block;
+  }
+  
   /* FAQ Background Colors */
   .faq-question-bg {
     background-color: hsl(75 60% 85%); /* 黄緑色 */
