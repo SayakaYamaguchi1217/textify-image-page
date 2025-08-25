@@ -142,6 +142,17 @@ All colors MUST be HSL.
   .faq-answer-bg {
     background-color: hsl(120 60% 85%); /* 緑色 */
   }
+  
+  /* FAQ Icon Colors */
+  .faq-question-icon {
+    background-color: hsl(75 70% 35%); /* 濃い黄緑色 */
+    color: hsl(0 0% 100%); /* 白文字 */
+  }
+  
+  .faq-answer-icon {
+    background-color: hsl(120 70% 25%); /* 濃い緑色 */
+    color: hsl(0 0% 100%); /* 白文字 */
+  }
 }
 
 @layer base {

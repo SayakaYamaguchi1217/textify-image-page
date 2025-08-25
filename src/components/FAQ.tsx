@@ -35,7 +35,7 @@ const FAQ = () => {
               <CardContent className="p-6">
                 <div className="faq-question-bg p-4 rounded-lg mb-4">
                   <div className="flex items-start">
-                    <span className="bg-primary text-primary-foreground rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-4 mt-1 flex-shrink-0">
+                    <span className="faq-question-icon rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-4 mt-1 flex-shrink-0">
                       Q
                     </span>
                     <h3 className="text-lg font-bold text-foreground leading-relaxed font-japanese">
@@ -45,7 +45,7 @@ const FAQ = () => {
                 </div>
                 <div className="faq-answer-bg p-4 rounded-lg">
                   <div className="flex items-start">
-                    <span className="bg-accent text-accent-foreground rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-4 mt-1 flex-shrink-0">
+                    <span className="faq-answer-icon rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-4 mt-1 flex-shrink-0">
                       A
                     </span>
                     <div className="text-muted-foreground leading-relaxed whitespace-pre-line">
