@@ -105,6 +105,94 @@ All colors MUST be HSL.
   }
 }
 
+/* Marker Highlight Styles */
+@layer components {
+  .marker-highlight {
+    @apply relative inline-block;
+  }
+  
+  .marker-highlight::before {
+    content: '';
+    position: absolute;
+    top: 0.1em;
+    left: -0.1em;
+    right: -0.1em;
+    bottom: -0.1em;
+    background: linear-gradient(104deg, transparent 0.9%, hsl(45 100% 80%) 2.4%, hsl(45 100% 75%) 5.8%, hsl(45 100% 80%) 93%, hsl(45 100% 85%) 96%, transparent 98%);
+    border-radius: 0.2em;
+    z-index: -1;
+    transform: rotate(-0.5deg);
+  }
+  
+  .marker-highlight-primary {
+    @apply relative inline-block;
+  }
+  
+  .marker-highlight-primary::before {
+    content: '';
+    position: absolute;
+    top: 0.1em;
+    left: -0.1em;
+    right: -0.1em;
+    bottom: -0.1em;
+    background: linear-gradient(104deg, transparent 0.9%, hsl(var(--primary) / 0.3) 2.4%, hsl(var(--primary) / 0.4) 5.8%, hsl(var(--primary) / 0.3) 93%, hsl(var(--primary) / 0.2) 96%, transparent 98%);
+    border-radius: 0.2em;
+    z-index: -1;
+    transform: rotate(-0.8deg);
+  }
+  
+  .marker-highlight-accent {
+    @apply relative inline-block;
+  }
+  
+  .marker-highlight-accent::before {
+    content: '';
+    position: absolute;
+    top: 0.1em;
+    left: -0.1em;
+    right: -0.1em;
+    bottom: -0.1em;
+    background: linear-gradient(104deg, transparent 0.9%, hsl(var(--accent) / 0.4) 2.4%, hsl(var(--accent) / 0.5) 5.8%, hsl(var(--accent) / 0.4) 93%, hsl(var(--accent) / 0.3) 96%, transparent 98%);
+    border-radius: 0.2em;
+    z-index: -1;
+    transform: rotate(0.3deg);
+  }
+  
+  .marker-highlight-green {
+    @apply relative inline-block;
+  }
+  
+  .marker-highlight-green::before {
+    content: '';
+    position: absolute;
+    top: 0.1em;
+    left: -0.1em;
+    right: -0.1em;
+    bottom: -0.1em;
+    background: linear-gradient(104deg, transparent 0.9%, hsl(142 76% 73%) 2.4%, hsl(142 76% 68%) 5.8%, hsl(142 76% 73%) 93%, hsl(142 76% 78%) 96%, transparent 98%);
+    border-radius: 0.2em;
+    z-index: -1;
+    transform: rotate(-0.3deg);
+  }
+  
+  .marker-highlight-pink {
+    @apply relative inline-block;
+  }
+  
+  .marker-highlight-pink::before {
+    content: '';
+    position: absolute;
+    top: 0.1em;
+    left: -0.1em;
+    right: -0.1em;
+    bottom: -0.1em;
+    background: linear-gradient(104deg, transparent 0.9%, hsl(330 85% 85%) 2.4%, hsl(330 85% 80%) 5.8%, hsl(330 85% 85%) 93%, hsl(330 85% 90%) 96%, transparent 98%);
+    border-radius: 0.2em;
+    z-index: -1;
+    transform: rotate(0.6deg);
+  }
+}
+
 @layer base {
   * {
     @apply border-border;
