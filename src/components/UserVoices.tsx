@@ -1,20 +1,20 @@
 import { Card, CardContent } from "@/components/ui/card";
-import hopefulPersonPhoto from "@/assets/hopeful-person-photo.jpg";
-import sighingPersonPhoto from "@/assets/sighing-person-photo.jpg";
-import thinkingPersonPhoto from "@/assets/thinking-person-photo.jpg";
+import hopefulWheelchairIllustration from "@/assets/hopeful-wheelchair-illustration.png";
+import sighingIllustration from "@/assets/sighing-illustration.png";
+import thinkingIllustration from "@/assets/thinking-illustration.png";
 
 const UserVoices = () => {
   const voices = [
     {
-      icon: hopefulPersonPhoto,
+      icon: hopefulWheelchairIllustration,
       text: "車椅子だけど本当は出かけたい"
     },
     {
-      icon: sighingPersonPhoto, 
+      icon: sighingIllustration, 
       text: "ちょっと自宅に帰りたいけど\n面倒だから諦めよう"
     },
     {
-      icon: thinkingPersonPhoto,
+      icon: thinkingIllustration,
       text: "介護タクシーを利用したいけど、\nどうしたら良いか分からない"
     }
   ];
