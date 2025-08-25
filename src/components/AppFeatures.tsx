@@ -27,17 +27,13 @@ const AppFeatures = () => {
                 </p>
               </div>
               
-              <div className="grid md:grid-cols-2 gap-8 items-center">
-                <div>
-                </div>
-                <div>
-                  <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-                    ムーブなら日本全国（エリア拡大中）対応可能です！
-                  </p>
-                  <p className="text-muted-foreground text-lg leading-relaxed">
-                    お手元のスマホより、お近くの介護タクシーが手配可能です。
-                  </p>
-                </div>
+              <div className="text-center">
+                <p className="text-muted-foreground text-lg leading-relaxed mb-4">
+                  ムーブなら日本全国（エリア拡大中）対応可能です！
+                </p>
+                <p className="text-muted-foreground text-lg leading-relaxed">
+                  お手元のスマホより、お近くの介護タクシーが手配可能です。
+                </p>
               </div>
             </CardContent>
           </Card>
@@ -56,17 +52,13 @@ const AppFeatures = () => {
           
           <Card className="max-w-4xl mx-auto shadow-lg bg-gradient-to-br from-accent/5 to-primary/5 border-accent/20">
             <CardContent className="p-8 md:p-12">
-              <div className="grid md:grid-cols-2 gap-8 items-center">
-                <div>
-                </div>
-                <div>
-                  <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-                    ムーブは介護タクシーに特化することで、介護等級や車椅子レンタルの有無などドライバーに事前共有が可能です。
-                  </p>
-                  <p className="text-muted-foreground text-lg leading-relaxed">
-                    簡単に配車予約が可能なことはもちろん、事前共有で楽々・安心を実現しました。
-                  </p>
-                </div>
+              <div className="text-center">
+                <p className="text-muted-foreground text-lg leading-relaxed mb-4">
+                  ムーブは介護タクシーに特化することで、介護等級や車椅子レンタルの有無などドライバーに事前共有が可能です。
+                </p>
+                <p className="text-muted-foreground text-lg leading-relaxed">
+                  簡単に配車予約が可能なことはもちろん、事前共有で楽々・安心を実現しました。
+                </p>
               </div>
             </CardContent>
           </Card>
