@@ -118,7 +118,7 @@ All colors MUST be HSL.
     left: -0.1em;
     right: -0.1em;
     bottom: -0.1em;
-    background: linear-gradient(104deg, transparent 0.9%, hsl(45 100% 80%) 2.4%, hsl(45 100% 75%) 5.8%, hsl(45 100% 80%) 93%, hsl(45 100% 85%) 96%, transparent 98%);
+    background: linear-gradient(104deg, transparent 0.9%, hsl(45 100% 65%) 2.4%, hsl(45 100% 60%) 5.8%, hsl(45 100% 65%) 93%, hsl(45 100% 70%) 96%, transparent 98%);
     border-radius: 0.2em;
     z-index: -1;
     transform: rotate(-0.5deg);
