@@ -133,6 +133,15 @@ All colors MUST be HSL.
     transform: rotate(0.4deg);
     display: inline-block;
   }
+  
+  /* FAQ Background Colors */
+  .faq-question-bg {
+    background-color: hsl(75 60% 85%); /* 黄緑色 */
+  }
+  
+  .faq-answer-bg {
+    background-color: hsl(120 60% 85%); /* 緑色 */
+  }
 }
 
 @layer base {

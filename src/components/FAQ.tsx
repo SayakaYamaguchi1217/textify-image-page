@@ -33,7 +33,7 @@ const FAQ = () => {
           {faqs.map((faq, index) => (
             <Card key={index} className="shadow-md hover:shadow-lg transition-all duration-300 bg-background">
               <CardContent className="p-6">
-                <div className="mb-4">
+                <div className="faq-question-bg p-4 rounded-lg mb-4">
                   <div className="flex items-start">
                     <span className="bg-primary text-primary-foreground rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-4 mt-1 flex-shrink-0">
                       Q
@@ -43,12 +43,14 @@ const FAQ = () => {
                     </h3>
                   </div>
                 </div>
-                <div className="flex items-start">
-                  <span className="bg-accent text-accent-foreground rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-4 mt-1 flex-shrink-0">
-                    A
-                  </span>
-                  <div className="text-muted-foreground leading-relaxed whitespace-pre-line">
-                    {faq.answer}
+                <div className="faq-answer-bg p-4 rounded-lg">
+                  <div className="flex items-start">
+                    <span className="bg-accent text-accent-foreground rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-4 mt-1 flex-shrink-0">
+                      A
+                    </span>
+                    <div className="text-muted-foreground leading-relaxed whitespace-pre-line">
+                      {faq.answer}
+                    </div>
                   </div>
                 </div>
               </CardContent>
