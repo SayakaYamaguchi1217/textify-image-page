@@ -21,13 +21,58 @@ const HeroSectionEn = () => {
               Book wheelchair-accessible vehicles easily from your smartphone.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button size="lg" className="text-lg px-8 py-6 bg-primary hover:bg-primary/90">
-                Download App
-              </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6">
-                Learn More
-              </Button>
+            {/* Business App Section */}
+            <div className="mb-8">
+              <h2 className="text-2xl md:text-3xl font-bold mb-6 text-foreground">
+                Care Taxi Operator App
+              </h2>
+              
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
+                <a 
+                  href="https://apps.apple.com/jp/app/%E3%83%A0%E3%83%BC%E3%83%96dx-%E4%BB%8B%E8%AD%B7%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA/id6746466200"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground hover:bg-primary/90 font-semibold rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105"
+                >
+                  Download from App Store
+                </a>
+                
+                <a 
+                  href="https://play.google.com/store/apps/details?id=com.japanmove.move_dx&fbclid=PAZXh0bgNhZW0CMTEAAacZGUDzDY5yVmE3PMABJ7lX32i3UIGcNioN6UqRFhMdS2evZz01OA2nguwIUg_aem_IBX1MHd46eZT722SVaKVVg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground hover:bg-primary/90 font-semibold rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105"
+                >
+                  Download from Google Play
+                </a>
+              </div>
+            </div>
+            
+            {/* General User App Section */}
+            <div>
+              <h3 className="text-xl md:text-2xl font-bold mb-6 text-foreground">
+                For General Users
+              </h3>
+              
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                <a 
+                  href="https://apps.apple.com/jp/app/%E3%83%A0%E3%83%BC%E3%83%96-%E4%BB%8B%E8%AD%B7%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E9%85%8D%E8%BB%8A%E3%82%A2%E3%83%97%E3%83%AA/id6745237717"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-3 bg-secondary text-secondary-foreground hover:bg-secondary/80 font-semibold rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105"
+                >
+                  Download from App Store
+                </a>
+                
+                <a 
+                  href="https://play.google.com/store/apps/details?id=com.japanmove.move"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-3 bg-secondary text-secondary-foreground hover:bg-secondary/80 font-semibold rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105"
+                >
+                  Download from Google Play
+                </a>
+              </div>
             </div>
           </div>
           

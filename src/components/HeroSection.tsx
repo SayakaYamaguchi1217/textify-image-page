@@ -60,7 +60,7 @@ const HeroSection = () => {
               一般の方はこちら！
             </h3>
             
-            <div className="flex justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
                 href="https://apps.apple.com/jp/app/%E3%83%A0%E3%83%BC%E3%83%96-%E4%BB%8B%E8%AD%B7%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E9%85%8D%E8%BB%8A%E3%82%A2%E3%83%97%E3%83%AA/id6745237717"
                 target="_blank"
@@ -68,6 +68,15 @@ const HeroSection = () => {
                 className="inline-flex items-center px-6 py-3 bg-white/95 hover:bg-white text-primary font-semibold rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105"
               >
                 App Storeからダウンロード
+              </a>
+              
+              <a 
+                href="https://play.google.com/store/apps/details?id=com.japanmove.move"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-6 py-3 bg-white/95 hover:bg-white text-primary font-semibold rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105"
+              >
+                Google Playからダウンロード
               </a>
             </div>
           </div>
